@@ -23,13 +23,13 @@ npm run dev
 ```bash
 # Server Port
 
-`PORT`=<your-port-number>
+PORT=<your-port-number>
 
 # returns 'connection url'
-`DB_URL`=<your-mongodb-connection-string>
+DB_URL=<your-mongodb-connection-string>
 
 # returns 'jwt secret key'
-`JWT_SECRET_KEY`=<your-jwt-secret>
+JWT_SECRET_KEY=<your-jwt-secret>
 ```
 3.Make API calls using a tool like Postman, Curl, or through your frontend application.
 ## Features
