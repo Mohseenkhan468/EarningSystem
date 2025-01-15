@@ -8,7 +8,7 @@ import transactionModel from "../models/transaction.schema.js";
 import jwt from "jsonwebtoken";
 import * as crypto from "crypto";
 import notifyUser from "../socket/socket.server.js";
-const JWT_SECRET_KEY=process.env.JWT_SECRET_KEY||'thisissecretkey';
+const JWT_SECRET_KEY = process.env.JWT_SECRET_KEY || "thisissecretkey";
 export default class UserController {
   static async generateReferralCode(referrerEmail) {
     try {
@@ -144,6 +144,7 @@ export default class UserController {
       return res.status(201).json({
         success: true,
         message: "User created successfully.",
+        action: "verify_account",
       });
     } catch (err) {
       console.log(err);
