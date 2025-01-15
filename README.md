@@ -37,7 +37,10 @@ npm run dev
 - Validation: Schema validation for requests using Joi.
 - Real-Time Communication: Real-time updates via Socket.IO.
 - Manage sensitive information with dotenv.
-
+## Swagger API Documentation
+```bash
+http://localhost:5000/api-docs/
+```
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
